@@ -4,7 +4,7 @@ on:
 jobs:
   shellcheck:
     name: ShellCheck
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - uses: ludeeus/action-shellcheck@2.0.0
             
