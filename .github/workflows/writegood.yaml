@@ -14,7 +14,10 @@ jobs:
           # brew install write-good 
           pwd
           ls
-          
+          cd ..
+          ls
+          cd ..
+          ls
           # write-good *.md
         shell: bash
           
