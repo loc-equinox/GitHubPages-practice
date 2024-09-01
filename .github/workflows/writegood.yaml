@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: run-write-good
         run: |
-          npm install write-good 
+          npm install -g write-good 
           write-good *.md
           
