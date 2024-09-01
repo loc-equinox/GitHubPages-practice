@@ -12,12 +12,7 @@ jobs:
       - name: run-write-good
         run: |
           # brew install write-good 
-          pwd
-          ls
-          cd ..
-          ls
-          cd ..
-          ls
+          find /home -name '*.md'
           # write-good *.md
         shell: bash
           
