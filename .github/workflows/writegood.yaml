@@ -4,7 +4,7 @@ on: push
 
 jobs:
   run-write-good:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: run-write-good
         run: |
