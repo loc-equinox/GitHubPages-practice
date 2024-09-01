@@ -1,0 +1,14 @@
+name: run write-good on *.md
+
+on: push
+
+jobs:
+  run-write-good:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: run-write-good
+        run: |
+          npm install write-good
+          write-good *.md
+
+        
