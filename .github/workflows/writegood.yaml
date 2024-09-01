@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: run-write-good
         run: |
-          npm install -g write-good 
+          brew install write-good 
           write-good *.md
+        shell: bash
           
