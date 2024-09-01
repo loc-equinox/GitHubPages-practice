@@ -6,6 +6,9 @@ jobs:
   run-write-good:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
       - name: run-write-good
         run: |
           brew install write-good 
