@@ -6,6 +6,8 @@ jobs:
   run-write-good:
     runs-on: ubuntu-latest
     steps:
+       - name: checkout repo
+         uses: actions/checkout@v4
        - name: Set up Homebrew
          id: set-up-homebrew
          uses: Homebrew/actions/setup-homebrew@master
