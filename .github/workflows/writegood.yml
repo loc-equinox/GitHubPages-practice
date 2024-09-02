@@ -12,6 +12,6 @@ jobs:
        - name: run-write-good
          run: |
            brew install write-good 
-           find . -name '*.md' && write-good *.md
+           find . -name '*.md' | xargs write-good
          shell: bash
           
